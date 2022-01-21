@@ -1,0 +1,27 @@
+.user-info__container {
+    width: 17%;
+    height: 10vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    float: left;
+    padding: 10px;
+   }
+   
+.summary__item {
+       padding-top: 5px;
+       float: left;
+       width: 100%;
+      }
+   
+.summary__logo {
+    padding-top: 5px;
+    float: left;
+    width: 50%;
+}
+   
+.summary__logout {
+    width: 100%;
+ }
+      

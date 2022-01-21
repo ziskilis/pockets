@@ -1,0 +1,30 @@
+.widget-container {
+    width: 40%;
+    height: 40%;
+border: 1px black solid;
+padding-left: 15px;
+border-radius: 16px;
+position: relative;
+float: left;
+margin: 10px;
+}
+.widget-delete {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    background-image: url(eraser-svgrepo-com.svg);
+}
+
+.widget-period {
+    position: absolute;
+    bottom:0;
+    left: 5px;
+}
+
+.widget-amount{
+    position: absolute;
+    bottom:0;
+    right:5px;
+}

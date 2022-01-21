@@ -1,0 +1,17 @@
+.transactions-container {
+    width: 70%;
+    height: 55vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+   }
+   
+   .transactions__header {
+       padding-top: 5px;
+       float: left;
+       width: 25%;
+   }

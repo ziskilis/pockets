@@ -1,0 +1,14 @@
+.transaction-container {
+    width: 100%;
+    background-color: #fff;
+   }
+   
+   .transaction__content {
+       padding-top: 5px;
+       float: left;
+       width: 25%;
+   }
+
+   .green-text {
+       color: green;
+   }
