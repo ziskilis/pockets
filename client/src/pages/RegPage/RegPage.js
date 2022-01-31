@@ -1,6 +1,6 @@
 import { registration } from "../../store/actions";
 import "./RegPage.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 
@@ -62,7 +62,7 @@ function RegPage() {
           Зарегистрироваться
         </button>
         <div className="auth-page__redirect-text">
-          У вас уже есть аккаунт? Войдите!
+          У вас уже есть аккаунт? <Link to='/auth'>Войдите!</Link> 
         </div>
       </div>
     </div>

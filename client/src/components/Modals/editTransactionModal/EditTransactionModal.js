@@ -17,6 +17,7 @@ function EditTransactionModal({ active, setActive, editItem }) {
   const changeTransactionHandler = (e) => {
     setTransaction({ ...transaction, [e.target.name]: e.target.value });
   };
+
   return (
     <div
       className={active ? "modal active" : "modal"}

@@ -27,15 +27,18 @@ function Transactions() {
   };
 
   return (
-    <div className="transactions-container">
-      <div className="transactions__header">Дата</div>
-      <div className="transactions__header">Категория</div>
-      <div className="transactions__header">Сумма</div>
-      <div className="transactions__header" onClick={() => setAddModal(true)}>
+    <table className="transactions-container">
+      <tr className="transactions__header">
+      <td className="transactions__header__item">Дата</td>
+      <td className="transactions__header__item">Категория</td>
+      <td className="transactions__header__item">Сумма</td >
+      <td  className="transactions__header__add-transaction" onClick={() => setAddModal(true)}>
         Добавить транзакцию
-      </div>
+      </td>
+      </tr>
+ 
       {loading ? (
-        <div>Идет загрузка...</div>
+        null
       ) : (
         transactions.map((transaction) => (
           <TransactionItem
@@ -51,7 +54,7 @@ function Transactions() {
         setActive={setEditModal}
         editItem={editItem}
       />
-    </div>
+    </table>
   );
 }
 

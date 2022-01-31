@@ -1,4 +1,4 @@
-import "./Widgets.css";
+import "./Widgets.sass";
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import WidgetItem from "../WidgetItem/WidgetItem";

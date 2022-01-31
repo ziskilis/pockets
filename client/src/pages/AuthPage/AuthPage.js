@@ -1,6 +1,6 @@
 import "./AuthPage.css";
 import { login } from "../../store/actions";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 
@@ -50,7 +50,7 @@ function AuthPage() {
           Войти
         </button>
         <div className="auth-page__redirect-text">
-          Впервые здесь? создайте аккаунт
+          Впервые здесь? <Link to="/reg">создайте аккаунт.</Link> 
         </div>
       </div>
     </div>

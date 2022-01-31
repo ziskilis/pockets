@@ -12,7 +12,7 @@ function Summary() {
       <div className="summary__logo" onClick={() => console.log(category)}>
         Сводка
       </div>
-      <div className="summary__logo" onClick={() => setModal(true)}>
+      <div className="summary__add-category" onClick={() => setModal(true)}>
         Добавить категорию
       </div>
       <div>

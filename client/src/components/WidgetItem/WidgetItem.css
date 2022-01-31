@@ -7,24 +7,40 @@ border-radius: 16px;
 position: relative;
 float: left;
 margin: 10px;
+background: linear-gradient(to bottom right, rgba(76, 208, 237, 0.5), pink);
 }
+
+.widget-container:hover {
+    box-shadow: 20px 15px 15px rgba(76, 208, 237, 0.5) ;
+}
+
 .widget-delete {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 0;
-    right: 5px;
-    background-image: url(eraser-svgrepo-com.svg);
+    cursor: pointer;
+    top: 5px;
+    right: 10px;
+    background-image: url(../../img/eraser-svgrepo-com.svg);
+    transition: 0.5s;
+}
+.widget-delete:hover{
+    transform: scale(1.5);
 }
 
 .widget-period {
     position: absolute;
-    bottom:0;
-    left: 5px;
+    bottom:10px;
+    left:10px;
 }
 
 .widget-amount{
     position: absolute;
-    bottom:0;
-    right:5px;
+    bottom:10px;
+    right:10px;
+}
+
+.widget-label {
+    padding-top: 5px;
+    width: 70%;
 }

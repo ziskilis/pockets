@@ -1,14 +1,46 @@
 .transaction-container {
     width: 100%;
-    background-color: #fff;
+    background: linear-gradient(to bottom right, rgba(76, 208, 237, 0.5), pink);
+    height: 40px;
+    display: block;
+    border-radius: 20px;
+    margin-top: 10px;
    }
    
    .transaction__content {
        padding-top: 5px;
+       padding-left: 20px;
        float: left;
        width: 25%;
+
    }
 
    .green-text {
        color: green;
    }
+
+   
+   .transaction__button__delete {
+       width: 20px;
+       height: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: blue;
+}
+
+.transaction__button__delete:hover {
+    text-shadow: 5px 3px 15px black;
+}
+
+.transaction__button__edit {
+ border: none;
+ margin-right: 5px;
+ background: none;
+ cursor: pointer;
+ color: blue;
+}
+
+.transaction__button__edit:hover {
+    text-shadow: 5px 3px 15px black;
+}

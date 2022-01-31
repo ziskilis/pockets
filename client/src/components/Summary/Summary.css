@@ -3,7 +3,7 @@
  height: 30vh;
  margin-top: 20px;
  margin-left: 20px;
- background-color: #fff;
+ background: radial-gradient(circle, rgba(63,251,224,1) 0%, rgba(113,115,145,0.9724090319721639) 100%);
  border-radius: 8px;
  float: left;
  padding: 10px;
@@ -21,6 +21,17 @@
     float: left;
     width: 50%;
    }
+.summary__add-category {
+    padding-top: 5px;
+    float: left;
+    width: 50%;
+ color: blue;
+}
+
+.summary__add-category:hover {
+    text-shadow: 5px 3px 15px black;
+    cursor: pointer;
+}
 
 .summary__logout{
        width: 100%;
